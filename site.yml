@@ -5,4 +5,7 @@
       authorized_key:
         user: root
         state: present
-        key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCslNKgLyoOrGDerz9pA4a4Mc+EquVzX52AkJZz+ecFCYZ4XQjcg2BK1P9xYfWzzl33fHow6pV/C6QC3Fgjw7txUeH7iQ5FjRVIlxiltfYJH4RvvtXcjqjk8uVDhEcw7bINVKVIS856Qn9jPwnHIhJtRJe9emE7YsJRmNSOtggYk/MaV2Ayx+9mcYnA/9SBy45FPHjMlxntoOkKqBThWE7Tjym44UNf44G8fd+kmNYzGw9T5IKpH1E1wMR+32QJBobX6d7k39jJe8lgHdsUYMbeJOFPKgbWlnx9VbkZh+seMSjhroTgniHjUl8wBFgw0YnhJ/90MgJJL4BToxu9PVnH ondrej@ondrejsika.com"
+        key: "{{ item }}"
+      loop:
+        - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4JFGodU2ostA6FD2tCydYjgqboO2he6ObBxBIyc7GAYNhe9buOJGu9/fCtm1ShhA+G0bCAFmWKbRyJH5Vm9eU0e8SNuLCM8sl9A6xcgrn3W58S7/2Nzk3BSegArODs1PoL6KCKxaVqd38eiriSFyca2+C1wvFMdCGAWMqNn4s7r+6G34JFxEdgJq7lr1O+YeeZkxJdZNEyf1A25ap0i6FY+soEm3RhBcRhjl7VWTBFVFx5rYJcRJaRzio+XXXi3GmifAclu8lYVgmTVfQfYILnQ0xdzfspImMPqLqpn2Yw3nRUb5fo9btaa8zB+a1Kplr0FbLT2GX5UF6Mu/rxTZ/ gitlab-runner@runner"
+        - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCslNKgLyoOrGDerz9pA4a4Mc+EquVzX52AkJZz+ecFCYZ4XQjcg2BK1P9xYfWzzl33fHow6pV/C6QC3Fgjw7txUeH7iQ5FjRVIlxiltfYJH4RvvtXcjqjk8uVDhEcw7bINVKVIS856Qn9jPwnHIhJtRJe9emE7YsJRmNSOtggYk/MaV2Ayx+9mcYnA/9SBy45FPHjMlxntoOkKqBThWE7Tjym44UNf44G8fd+kmNYzGw9T5IKpH1E1wMR+32QJBobX6d7k39jJe8lgHdsUYMbeJOFPKgbWlnx9VbkZh+seMSjhroTgniHjUl8wBFgw0YnhJ/90MgJJL4BToxu9PVnH ondrej@ondrejsika.com"
