@@ -1,0 +1,8 @@
+stages:
+  - apply
+
+apply:
+  stage: apply
+  script:
+    - pipenv install
+    - pipenv run ansible-playbook site.yml
